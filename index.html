@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <body>
+        <header>
+            <div class="logo">
+            <img src="imagenes/alura_latam_logo.jpg" alt="Logo de Alura Latam" class="logo">
+             </div>
+        </header>
+        <main class="container">
+            <h1>✨ Encriptador Mágico ✨</h1>
+            <textarea id="input" placeholder="Ingrese el texto aquí..." autocomplete="off"></textarea>
+            <div class="buttons">
+                <button onclick="encriptar()">🔒 Encriptar</button>
+                <button onclick="desencriptar()">🔓 Desencriptar</button>
+                <button onclick="borrarCampos()">🗑️ Borrar</button>
+            </div>
+            <textarea id="output" readonly placeholder="Resultado aparecerá aquí..." autocomplete="off"></textarea>
+            <button onclick="copiarResultado()">📋 Copiar resultado</button>
+        </main>
+        <footer class="footer">
+            <p>Desarrollado por Lizbeht león Mendoza</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+    
+
+</html>
